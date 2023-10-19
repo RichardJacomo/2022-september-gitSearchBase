@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/globalStyles.css" />
+    <link rel="stylesheet" href="./pages/home/index.css" />
+    <!-- <link rel="stylesheet" href="./pages/profile/index.css" /> -->
+    <title>Git Search</title>
+  </head>
+  <!-- home-page-width desapears when home page is shown -->
+  <!-- <body class="container home-page-width"> -->
+    <body class="container">
+      <main class="main-header none">
+      <!-- <header class="nav-menu">
+        <div class="div-profile">
+          <img class="img-profile" src="./assets/img/spinner.png" alt="">
+          <div class="div-profile-information">
+            <h2 class="profile-name">Richard</h2>
+            <p class="profile-ocupation">Front-End Developer</p>
+          </div>
+        </div>
+        <div class="div-buttons-menu">
+          <button class="email-button">Email</button>
+          <button class="change-user-button">Trocar de usuário</button>
+        </div>
+      </header> -->
+
+        <main class="profile-page">
+          <ul class="ul-repository">
+<!-- 
+            <li class="li-repository">
+              <h2 class="title-repository">Projeto tal</h2>
+              <p class="text-repository">Descrição do projeto tal</p>
+              <div class="div-buttons-repository">
+                <a href="https://github.com/samuelleao/DoItProject"><button class="button-repository">Repositório</button></a>
+                <button class="button-demo">Demo</button>
+              </div>
+            </li>
+            <li class="li-repository">
+              <h2 class="title-repository">Projeto tal</h2>
+              <p class="text-repository">Descrição do projeto tal</p>
+              <div class="div-buttons-repository">
+                <button class="button-repository">Repositório</button>
+                <button class="button-demo">Demo</button>
+              </div>
+            </li>
+            <li class="li-repository">
+              <h2 class="title-repository">Projeto tal</h2>
+              <p class="text-repository">Descrição do projeto tal</p>
+              <div class="div-buttons-repository">
+                <button class="button-repository">Repositório</button>
+                <button class="button-demo">Demo</button>
+              </div>
+            </li>
+            <li class="li-repository">
+              <h2 class="title-repository">Projeto tal</h2>
+              <p class="text-repository">Descrição do projeto tal</p>
+              <div class="div-buttons-repository">
+                <button class="button-repository">Repositório</button>
+                <button class="button-demo">Demo</button>
+              </div>
+            </li> -->
+
+          </ul>
+        </main>   
+    </main>
+
+    <main class="home-page">
+      <section class="presentation">
+        <div class="div-presentation">
+          <h1 class="title-logo">Git Search</h1>
+          <h3 class="text-presentation">Encontre e se conecte com profissionais de forma rápida e fácil</h3>
+          <div class="div-history">
+            <strong class="title-history">Achados Recentemente:</strong>
+            <ul class="ul-history">
+              <!-- <li class="li-history">
+              <img class="img-history" src="./assets/img/spinner.png" alt="">
+              <button class="button-history none">Acessar este perfil</button>
+              </li>
+              <li class="li-history">
+                <img class="img-history" src="./assets/img/spinner.png" alt="">
+                <button class="button-history none">Acessar este perfil</button>
+              </li>
+              <li class="li-history">
+                <img class="img-history" src="./assets/img/spinner.png" alt="">
+                <button class="button-history none">Acessar este perfil</button>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="search">
+          <div class="div-search">
+            <h2 class="title-search">Procurar por um usuário</h2>
+            <form class="form-search" action="">
+              <label class="label-search" for="">Usuário github</label>
+              <input class="input-search" type="text" placeholder="Digite um usuário do github aqui...">
+              <h3 class="not-found none">Usuário não encontrado</h3>
+              <button class="button-search none">Ver perfil do github</button>
+              <button class="button-loading none"><img class="img-loading" src="./assets/img/spinner.png" alt=""></button>
+              <div class="button-inactive">Ver perfil do github</div>
+            </form>
+          </div>
+      </section>
+
+    </main>
+    <script src="./pages/home/index.js"></script>
+    <!-- <script src="./pages/profile/index.js"></script> -->
+  </body>
+</html>
